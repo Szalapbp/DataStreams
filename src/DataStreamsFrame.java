@@ -18,7 +18,7 @@ public class DataStreamsFrame extends JFrame
     public DataStreamsFrame()
     {
         setTitle("Data Streams Processing");
-        setSize(800, 600);
+        setSize(1200, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
@@ -41,8 +41,8 @@ public class DataStreamsFrame extends JFrame
         commandPnl.add(searchBtn);
         commandPnl.add(quitBtn);
 
-        originalWordsScroll.setPreferredSize(new Dimension(300, 400));
-        returnWordsScroll.setPreferredSize(new Dimension(300, 400));
+        originalWordsScroll.setPreferredSize(new Dimension(450, 600));
+        returnWordsScroll.setPreferredSize(new Dimension(450, 600));
 
         add(commandPnl, BorderLayout.NORTH);
         add(textPnl, BorderLayout.SOUTH);

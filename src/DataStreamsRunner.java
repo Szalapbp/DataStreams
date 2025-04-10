@@ -1,7 +1,13 @@
+import javax.swing.*;
+
 public class DataStreamsRunner
 {
     public static void main(String[] args)
     {
-        DataStreamsFrame frame = new DataStreamsFrame();
+        SwingUtilities.invokeLater(() ->
+        {
+            DataStreamsFrame frame = new DataStreamsFrame();
+            frame.setVisible(true);
+        });
     }
 }
